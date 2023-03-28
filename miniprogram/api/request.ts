@@ -3,7 +3,7 @@ export const get = (uri:string) => {
   wx.showLoading({
     title:"加载中"
   })
-  return new Promise((resolve,reject)=>{
+  return new Promise<any>((resolve,reject)=>{
     wx.request({
       url:baseUrl + uri,
       method:'GET',
