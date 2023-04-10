@@ -27,7 +27,10 @@
     ],
     "ignoreDevUnusedFiles": false,
     "ignoreUploadUnusedFiles": true,
-    "minified": true
+    "minified": true,
+    "es6": false,
+    "enhance": false,
+    "postcss": false
   },
   "simulatorType": "wechat",
   "simulatorPluginLibVersion": {},

@@ -1,21 +1,11 @@
-// pages/index/index.ts
+// pages/search/index.ts
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    categoryBannerList:[
-      {
-        image:'/images/recommend-playlist.png'
-      },
-      {
-        image:'/images/recommend-playlist.png'
-      },
-      {
-        image:'/images/recommend-playlist.png'
-      },
-    ]
+
   },
 
   /**

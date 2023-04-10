@@ -1,14 +1,42 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/search/index",
+    "pages/lib/index",
     "pages/login/index"
   
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle": "black"
+    "navigationBarTitleText": "胖丁音乐",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#7A869A",
+    "selectedColor": "#7A869A",
+    "borderStyle": "white",
+    "list": [
+      {
+        "iconPath": "./images/home.png",
+        "pagePath": "pages/index/index",
+        "selectedIconPath": "./images/home-active.png",
+        "text": "首页"
+      },
+      {
+        "iconPath": "./images/search.png",
+        "pagePath": "pages/search/index",
+        "selectedIconPath": "./images/search-active.png",
+        "text": "搜索"
+      },
+      {
+        "iconPath": "./images/lib.png",
+        "pagePath": "pages/lib/index",
+        "selectedIconPath": "./images/lib-active.png",
+        "text": "音乐库"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json",
   "lazyCodeLoading": "requiredComponents"
